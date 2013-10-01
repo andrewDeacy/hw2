@@ -1,0 +1,116 @@
+
+
+			
+.MyGradientClass
+{
+background-image: linear-gradient(bottom, rgb(219,219,219) 42%, rgb(201,195,201) 71%, rgb(230,230,227) 86%);
+background-image: -o-linear-gradient(bottom, rgb(219,219,219) 42%, rgb(201,195,201) 71%, rgb(230,230,227) 86%);
+background-image: -moz-linear-gradient(bottom, rgb(219,219,219) 42%, rgb(201,195,201) 71%, rgb(230,230,227) 86%);
+background-image: -webkit-linear-gradient(bottom, rgb(219,219,219) 42%, rgb(201,195,201) 71%, rgb(230,230,227) 86%);
+background-image: -ms-linear-gradient(bottom, rgb(219,219,219) 42%, rgb(201,195,201) 71%, rgb(230,230,227) 86%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.42, rgb(219,219,219)),
+	color-stop(0.71, rgb(201,195,201)),
+	color-stop(0.86, rgb(230,230,227))
+);
+}​
+
+ 
+
+}
+ 
+#ul {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+#h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+#img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+#p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+#li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+#li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+#div {
+  margin: 15px;
+  padding: 15px;
+  border: 15px;
+  }
+  
+#images {padding: 15px;
+		border: 15px;
+		margin: 15px;
+		}			
+#header {font-style:italic;
+		}
+
+
+}
+#iowaImage {padding: 10px;
+			border:10px;
+			}
+
+
+
+#menu {
+				font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   				font-weight: 300;
+				text-transform: uppercase;
+				margin: 50px 0;
+				padding: 0;
+				list-style-type: none;
+				background-color: #eee;
+				font-size: 13px;
+				height: 40px;
+				border-top: 2px solid #eee;
+				border-bottom: 2px solid #ccc;
+			}
+			#menu li {
+				float: left;
+				margin: 0;				
+			}
+			#menu li a {
+				text-decoration: none;
+				display: block;
+				padding: 0 20px;
+				line-height: 40px;
+				color: #666;
+			}
+			#menu li a:hover, #menu li.active a {
+				background-color: #f5f5f5;
+				border-bottom: 2px solid #DDD;
+				color: #999;
+			}
+			#menu_wrapper ul {margin-left: 12px;}
+			#menu_wrapper {padding: 0 16px 0 0; background: url(images/grey.png) no-repeat right;}
+			#menu_wrapper div {float: left; height: 44px; width: 12px; background: url(images/grey.png) no-repeat left;}
+			
+			/* Black Menu */
+			#menu_wrapper.black ul {
+				border-top: 2px solid #333;
+				border-bottom: 2px solid #000;
+				background: #333;}
+			#menu_wrapper.black a {color: #CCC;}
+			#menu_wrapper.black li a:hover, #menu_wrapper.black li.active a {color: #999; background: #555; border-bottom: 2px solid #444;}
+			#menu_wrapper.black {background: url(images/black.png) no-repeat right;}
+			#menu_wrapper.black div {background: url(images/black.png) no-repeat left;}
